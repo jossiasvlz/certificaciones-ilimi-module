@@ -1,0 +1,1 @@
+﻿Select rne, nombres, apellidos, numeroOrden, Sabanas.seccion, Sabanas.convocatoria as secc, Sabanas.añoAcademico as conv  FROM Certificados JOIN Sabanas ON Certificados.idSabana = Sabanas.idSabana
